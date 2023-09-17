@@ -4,10 +4,25 @@ body {
     line-height: 1.6;
     font-size: 18px;
     color: #444;
-    padding: 0 10px
-    
+    padding: 0 10px;
+    background-color: #f2f2f2;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color:#c9d1d9;
+        background: #0d1117
+    }
+
+    a:link {
+        color: #58a6ff
+    }
+
+    a:visited {
+        color: #8e96f0
+    }
 }
 
 h1,h2,h3 {
-    line-height: 1.5
+    line-height: 1.5;
 }
